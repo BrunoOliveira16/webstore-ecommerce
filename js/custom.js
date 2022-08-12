@@ -1,9 +1,11 @@
 // instancia jQuery e evita conflitos
 jQuery(function($){
     
-    $('h4') // tag
-    $('.featured-item') //class
-    $('#featured') //id
+    let titulos = $('h4') // tag
+
+    let itens = $('.featured-item') //class
+    
+    let features = $('#featured') //id
 
 })
 
