@@ -52,5 +52,20 @@
 
     })
 
-});
+    /* 
+    * Callback
+    * entendendo ações que começam ao término de outra
+    */
+    $('.featured-item:nth(1)')
+        .hide(2000, function(){
+        //Este é o callback
+        /*alert*/console.log( $(this).find('h4').text() + ' esgotado')
+        })
+        .show(2000, function(){
+            console.log( $(this).find('h4').text() + ' em estoque')
+        })
+
+
+    });
+
 
