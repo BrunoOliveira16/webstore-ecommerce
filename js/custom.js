@@ -26,6 +26,8 @@
     $('.featured-item:first h4').click(function(){
         $(this).css('color', '#f00')
     });
+
+    //Exemplos de seleção de elementos
     //$('.featured-item:first h4').css({
     //    'color': '#f00',
     //    'background': '#ff0',
@@ -94,8 +96,6 @@
 
     })
 
-    });
-
     /*
     * Ouvinte de eventos .nav-modal-open
     */
@@ -113,3 +113,77 @@
         myModal.show()
 
     })
+
+    /* Validação de campos do form */
+    function validate(elem) {
+        if(elem.val() == ''){
+
+            console.log('os campo de '+ elem.attr('name') + ' é obrigatório')
+            elem.parent().find('.text-muted').show()
+            elem.addClass('invalid')
+
+            return false
+        } else {
+            elem.parent().find('text-muted').hide()
+            elem.removeClass('invalid')
+
+        }
+    }
+
+    /* Validação de submit do form */
+    $('body').on('submit', '.modal-body .form', function(e){
+        
+        e.preventDefault()
+
+        const inputName = $('#nome')
+        const inputEmail = $('#email')
+
+        validate(inputName)
+        validate(inputEmail)
+
+        if(inputEmail.hasClass('invalid') || inputName.hasClass('invalid')){
+            console.log('verificar campos obrigatórios')
+            return false
+        } else {
+            $(this).submit()
+        }        
+
+    })
+
+    /* disparo para validação do campo por meio do blur */
+    $('body').on('blur', '#nome', function(){
+        validate($(this))
+    })
+
+    $('body').on('blur', '#email', function(){
+        validate($(this))
+    })
+
+    /* disparos com utilização de plugin jQuery Mask */
+    $('body').on('blur', '#date', function(){
+        validate($(this))
+        $(this).mask('00/00/0000');
+    })
+
+    $('body').on('blur', '#time', function(){
+        validate($(this))
+        $(this).mask('00:00:00');
+    })
+    
+    $('body').on('blur', '#cep', function(){
+        validate($(this))
+        $(this).mask('00000-000');
+    })
+    
+    $('body').on('blur', '#phone', function(){
+        validate($(this))
+        $(this).mask('00000-0000');
+    })
+    
+    $('body').on('blur', '#cpf', function(){
+        validate($(this))
+        $(this).mask('000.000.000-00');
+    })
+
+
+});

@@ -745,3 +745,13 @@ a {
 #email {
 	position: relative;
 }
+
+/* class para validação de form */
+.invalid {
+	border-color: #f00;
+}
+
+.text-muted {
+	display: none;
+	color: #f00;
+}
