@@ -1,15 +1,21 @@
-# jquery-academico
-Repositorio de estudo da biblioteca jquery com criação de projeto e-comerce. Projeto em andamento...
+# jQuery-academico
+Repositorio de estudo da biblioteca jquery e aplicação das suas funcionalidades e criação de projeto e-commerce aplicando os conceitos aprendido durante as aulas.
 
-# Screenshot do projeto
+## Screenshot do projeto
 
+Designer 01
 ![Screenshot](./assets/images/Screenshot.jpg)
 
-# Link para visualizar no navegador
+Designer 02
+![Screenshot](./assets/images/Screenshot-01.jpg)
+## Link para visualizar no navegador
 
 https://brunooliveira16.github.io/jquery-academico/
 
-# jQuery
+
+## Conteudo teórico curso
+Conteúdo abaixo referente a informações teóricas do módulo jQery da EBAC.
+## jQuery
 "write less, do more"
 
 - Biblioteca de JavaScript
