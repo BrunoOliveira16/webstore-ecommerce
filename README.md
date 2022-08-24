@@ -1,4 +1,4 @@
-# jQuery-academico
+# Projeto Webstore E-commerce
 Repositorio de estudo da biblioteca jquery e aplicação das suas funcionalidades e criação de projeto e-commerce aplicando os conceitos aprendido durante as aulas.
 
 ## Screenshot do projeto
