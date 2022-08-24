@@ -99,7 +99,7 @@
     /*
     * Ouvinte de eventos .nav-modal-open
     */
-    $('nav-modal-open').on('click', function(e){
+    $('.nav-modal-open').on('click', function(e){
 
         e.preventDefault();
 
@@ -114,7 +114,11 @@
 
     })
 
-    /* Validação de campos do form */
+    /* Validação de campos do form 
+     * - Checar se o nome é válido (mais de 2 caracteres)
+     * - Checar se o email é válido com ao menos um "@" e "."
+     * - Checar se o CPF é válido com regex
+     */
     function validate(elem) {
         if(elem.val() == ''){
 
@@ -160,6 +164,10 @@
     })
 
     /* disparos com utilização de plugin jQuery Mask */
+    $('body').on('focus', '#date', function(){
+        $(this).datepicker()
+    })
+    
     $('body').on('blur', '#date', function(){
         validate($(this))
         $(this).mask('00/00/0000');

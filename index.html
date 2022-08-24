@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./vendor/owl/css/owl.css">
     <link rel="stylesheet" href="./vendor/fontawesome/fontawesome.css">
+    <link rel="stylesheet" href="./vendor/jquery-ui/jquery-ui.min.css">
+
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>jQuery</title>
+    <title>WebStore</title>
 </head>
 <body>
     
@@ -22,18 +24,18 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home
+                        <a class="nav-link" href="#home">Home
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="products.html">Produtos</a>
+                        <a class="nav-link" href="#produto">Produtos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-modal-open" href="about.html" rel="sobre">Sobre nós</a>
+                        <a class="nav-link nav-modal-open" href="#sobre" rel="sobre">Sobre nós</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-modal-open" href="contact.html" rel="contato">Contato</a>
+                        <a class="nav-link nav-modal-open" href="#contato" rel="contato">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -155,31 +157,32 @@
                         <div class="line-dec"></div>
                         <h1>Receba novidades</h1>
                     </div>
-                    <div class="col-md-8 offset-md-2">
-                        <div class="main-content">
-                            <p>Insira seus dados abaixo para receber informações atualizadas de nossos produtos</p>
-                            <div class="container">
-                                <form id="subscribe" class="form" action="" method="get">
-                                    <div class="row">
-                                        <div class="col-md-7">
-                                            <fieldset>
-                                                <input name="E-mail" type="text" class="form-control" id="e-mail" placeholder="Seu e-mail...">
-                                            </fieldset>
-                                        </div>
-                                        <div class="col-md-5">
-                                            <fieldset>
-                                                <button type="submit" class="button" id="form-submit">Inscreva-se</button>
-                                            </fieldset>
-                                        </div>
+                </div>
+                <div class="col-md-8 offset-md-2">
+                    <div class="main-content">
+                        <p>Insira seus dados abaixo para receber informações atualizadas de nossos produtos</p>
+                        <div class="container">
+                            <form id="subscribe" class="form" action="" method="get">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <fieldset>
+                                            <input name="Email" type="text" class="form-control" id="Email" value="" placeholder="Seu e-mail...">
+                                        </fieldset>
                                     </div>
-                                </form>
-                            </div>
+                                    <div class="col-md-5">
+                                        <fieldset>
+                                            <button type="submit" class="button" id="form-submit">Inscreva-se</button>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
     <div class="footer">
         <div class="container">
@@ -192,21 +195,19 @@
                 <div class="col-md-12">
                     <div class="footer-menu">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Help</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">How It Works ?</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#top">Home</a></li>
+                            <li><a href="#Produtos">Produtos</a></li>
+                            <li><a href="#sobre" rel="sobre" class="nav-modal-open">Sobre</a></li>
+                            <li><a href="#contato" rel="contato">Contato</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="social-icons">
                         <ul>
-                            <li><a href="#" title="facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" title="twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#" title="rss"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="https://www.instagram.com/bruno.oliveira.16/" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/bruno-oliveira1608/" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/BrunoOliveira16" title="github"><i class="fa fa-github"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -312,14 +313,15 @@
 
     </div>
 
-    <!-- Scripts -->
+    <!-- Bibliotecas -->
     <script src="./vendor/jquery/jquery-3.6.0.min.js"></script>
     <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="./vendor/owl/js/owl.js"></script>
-    <script src="./js/custom.js"></script>
+    <script src="./vendor/jquery-mask/jquery.mask.min.js"></script>
+    <script src="./vendor/jquery-ui/jquery-ui.min.js"></script>
 
     <!-- Scripts customizados -->
-    <script src="./vendor/jquery-mask/jquery.mask.min.js"></script>
-    
+    <script src="./js/custom.js"></script>
+
 </body>
 </html>
