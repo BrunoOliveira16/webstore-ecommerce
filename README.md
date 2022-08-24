@@ -10,11 +10,11 @@ Designer 02
 ![Screenshot](./assets/images/Screenshot-01.jpg)
 ## Link para visualizar no navegador
 
-https://brunooliveira16.github.io/jquery-academico/
+https://brunooliveira16.github.io/webstore-ecommerce/
 
 
 ## Conteudo teórico curso
-Conteúdo abaixo referente a informações teóricas do módulo jQery da EBAC.
+Conteúdo abaixo referente a informações teóricas do módulo jQuery da EBAC.
 ## jQuery
 "write less, do more"
 
