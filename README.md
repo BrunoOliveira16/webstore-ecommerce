@@ -10,7 +10,7 @@ Designer 02
 ![Screenshot](./assets/images/Screenshot-01.jpg)
 ## Link para visualizar no navegador
 
-https://brunooliveira16.github.io/webstore-ecommerce/
+https://630747886b1c0400b003d92f--frolicking-eclair-0fa201.netlify.app/
 
 
 ## Conteudo teórico curso
