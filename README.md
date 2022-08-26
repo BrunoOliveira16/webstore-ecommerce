@@ -4,7 +4,6 @@
 ---
 
 ## 💻 Screenshot do projeto
----
 
 Designer 01
 ![Screenshot](./assets/images/Screenshot.jpg)
