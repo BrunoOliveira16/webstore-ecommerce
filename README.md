@@ -1,6 +1,6 @@
 ## 📝 Projeto Webstore E-commerce
 
-Projeto de criação e um e-commerce utilizando as bibliotecas bootstrap e jQuery, com os conhecimentos passados no modulo jquery do cruso de desenvolvedor full-stack da EBAC.
+- Projeto de criação e um e-commerce utilizando as bibliotecas bootstrap e jQuery, com os conhecimentos passados no modulo jquery do cruso de desenvolvedor full-stack da EBAC.
 ---
 
 ## 💻 Screenshot do projeto
