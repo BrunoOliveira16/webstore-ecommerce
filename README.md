@@ -1,4 +1,5 @@
 ## 📝 Projeto Webstore E-commerce
+
 Projeto de criação e um e-commerce utilizando as bibliotecas bootstrap e jQuery, com os conhecimentos passados no modulo jquery do cruso de desenvolvedor full-stack da EBAC.
 ---
 
@@ -43,4 +44,3 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
 Bruno Oliveira
 
----
